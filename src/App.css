@@ -1,0 +1,58 @@
+body {
+  background-color: #E1BA90;
+  font-family: "Verdana";
+  font-weight: 300; 
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.cocktail-card {
+  padding: 20px;
+}
+
+.cocktail-header {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #3B1E00;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  box-shadow: 0px 5px 5px black;
+}
+
+.cocktail-body {
+  border-radius: 0 0 10px 10px;
+  border-top-color: #733C03;
+  border-top-style: solid;
+  border-top-width: 5px;
+  background-color: #FFF8F0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #3B1E00;
+  padding: 10px;
+  box-shadow: 0px 3px 1px black;
+}
